@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace mvcwebapp.Models
 {
-    public class EmployeeDbContext : DbContext
+    public class EmployeeDBContext : DbContext
     {
-        public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options) : base(options)
+        public EmployeeDBContext(DbContextOptions<EmployeeDBContext> options) : base(options)
         {
 
         }
