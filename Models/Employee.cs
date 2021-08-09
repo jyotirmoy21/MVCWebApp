@@ -13,5 +13,6 @@ namespace  mvcwebapp.Models
        public int DepartmentID { get; set; }
         
        public Department Department { get; set; }
+       //https://www.c-sharpcorner.com/article/crud-operation-with-asp-net-core-mvc-using-visual-studio-code-and-ado-net/
     }
 }
