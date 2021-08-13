@@ -9,7 +9,7 @@ using mvcwebapp.Models;
 namespace mvcwebapp.Migrations
 {
     [DbContext(typeof(EmployeeDBContext))]
-    [Migration("20210806153403_seeddata")]
+    [Migration("20210813095051_seeddata")]
     partial class seeddata
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
